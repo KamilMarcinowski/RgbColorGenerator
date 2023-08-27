@@ -9,7 +9,6 @@ function SetColor()
 {
     let color = "rgb("+ red.value + "," + green.value + "," + blue.value + ")";
 
-    alert(color);
     colorVisualisation.style.backgroundColor = color;
     result.value = color;
 }
