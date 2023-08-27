@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorPicker</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <center><h1>Color Picker</h1></center>
+        </header>
+        <main>
+            <center>
+                <div class="color" id="color"></div>
+                <br><br>
+                <div class="setting">
+                    <br>Red<br>
+                    <input type="range" class="red" id="red" min="0" max="255">
+                    <br>Green<br>
+                    <input type="range" class="green" id="green" min="0" max="255">
+                    <br>Blue<br>
+                    <input type="range" class="blue" id="blue" min="0" max="255">
+                </div>
+                <br><br>
+                <div class="resultDiv">
+                    <input class="result" id="result" type="text">
+                </div>
+            </center>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
