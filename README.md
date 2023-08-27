@@ -1,0 +1,2 @@
+# RgbColorGenerator
+generate rgb color
